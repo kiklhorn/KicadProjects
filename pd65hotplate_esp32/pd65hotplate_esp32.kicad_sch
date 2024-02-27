@@ -1882,6 +1882,249 @@
 				)
 			)
 		)
+		(symbol "EasyEda2Kicad:LMR38020SDDAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LMR38020SDDAR"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C3192337"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LMR38020SDDAR_0_1"
+				(rectangle
+					(start -11.43 6.35)
+					(end 11.43 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -10.16 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 1.27 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 3.81 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 -1.27 0)
+					(length 2.54)
+					(name "RT/SYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -1.27 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 -3.81 180)
+					(length 2.54)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 1.27 180)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 13.97 3.81 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 8.89 270)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "EasyEda2Kicad:PESD24VS1UL-N"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3430,6 +3673,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 64.77) (xy 92.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6551c79d-1f5d-482b-b5c2-8b45f6c356d1")
+	)
+	(wire
+		(pts
 			(xy 92.71 68.58) (xy 101.6 68.58)
 		)
 		(stroke
@@ -3618,6 +3871,16 @@
 		)
 		(uuid "ecdd770e-a48c-4de0-ae30-7d4cf784feb8")
 	)
+	(wire
+		(pts
+			(xy 92.71 64.77) (xy 158.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff98d422-6847-4748-9672-43acaabeda52")
+	)
 	(text "4.5-20V in, 3V3/800mA out"
 		(exclude_from_sim no)
 		(at 127 21.844 0)
@@ -3713,6 +3976,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DP"
+		(shape input)
+		(at 146.05 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e949ebf-ad97-4301-943d-ac7cb30ee759")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.5248 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3827,6 +4112,72 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 199.39 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a31024e-2bd2-41ce-9c79-8470ad177d8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.8828 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DN"
+		(shape input)
+		(at 146.05 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "884011ab-9912-4298-8363-ced975418826")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.4643 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 199.39 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f523483-35f4-4a79-8fb3-0d4c95a4744b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.9433 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CC2"
 		(shape input)
 		(at 101.6 78.74 180)
@@ -3840,6 +4191,28 @@
 		(uuid "92304962-ad35-4f18-a62f-92802b4f8cfc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 94.8653 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC1"
+		(shape input)
+		(at 146.05 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9834dd4a-45ec-4f7e-b2f8-63d6e60b8e8c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.3153 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,6 +4477,28 @@
 		(uuid "f965586e-f0d3-469b-8798-6fceff5782b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 96.0748 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CC2"
+		(shape input)
+		(at 146.05 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffd04dab-7a58-41fb-a3a5-61af77ae1496")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 139.3153 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4384,7 +4779,7 @@
 	)
 	(symbol
 		(lib_id "EasyEda2Kicad:HUSB238A")
-		(at 229.87 81.28 0)
+		(at 172.72 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4393,7 +4788,7 @@
 		(fields_autoplaced yes)
 		(uuid "39afd434-ccf8-4e39-a2b8-3ce0059b81a8")
 		(property "Reference" "U5"
-			(at 225.7141 62.23 0)
+			(at 168.5641 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4797,7 @@
 			)
 		)
 		(property "Value" "HUSB238A"
-			(at 225.7141 64.77 0)
+			(at 168.5641 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4806,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:QFN-16_L3.0-W3.0-P0.50-BL-EP1.7"
-			(at 229.87 105.41 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,7 +4815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 81.28 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 81.28 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4833,7 @@
 			)
 		)
 		(property "LCSC Part" "C9900049079"
-			(at 229.87 107.95 0)
+			(at 172.72 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,6 +5424,104 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEda2Kicad:LMR38020SDDAR")
+		(at 210.82 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6835b17a-5f1d-4dd3-b812-aae029496874")
+		(property "Reference" "U6"
+			(at 210.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LMR38020SDDAR"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1"
+			(at 210.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C3192337"
+			(at 210.82 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "74b9c38c-c5ad-4d65-8432-b3dbb4a309af")
+		)
+		(pin "6"
+			(uuid "5f9f28e7-247c-4c94-9a28-a1c8bd6d6606")
+		)
+		(pin "8"
+			(uuid "4d853b1f-09ca-432f-9a78-70767a48bcdb")
+		)
+		(pin "9"
+			(uuid "8079c551-d4aa-4ca3-b1b0-5690f90ec1cb")
+		)
+		(pin "7"
+			(uuid "d20ef88b-1f46-404a-a3e0-551fcfd1098a")
+		)
+		(pin "1"
+			(uuid "e311465e-26d9-41fd-8fbd-5f810fb4fd38")
+		)
+		(pin "2"
+			(uuid "f15b9678-caf5-4207-805a-fee68f1addc5")
+		)
+		(pin "3"
+			(uuid "b93014d3-fd9a-44c4-8a5e-b6aab92e5f8e")
+		)
+		(pin "5"
+			(uuid "bcc1fe16-0534-4e63-8818-518220b6da9f")
+		)
+		(instances
+			(project "pd65hotplate_esp32"
+				(path "/c1e2596a-50cb-48ec-8f37-79d6dd78307c"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 152.4 52.07 0)
 		(unit 1)
@@ -5504,6 +5997,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 154.94 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5bc0711-80ed-4318-9d4b-37df422a9838")
+		(property "Reference" "#PWR012"
+			(at 154.94 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a95a783b-4ae1-4d23-bfdb-8b84c675e929")
+		)
+		(instances
+			(project "pd65hotplate_esp32"
+				(path "/c1e2596a-50cb-48ec-8f37-79d6dd78307c"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 152.4 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5967,7 +6526,7 @@
 	(symbol
 		(lib_name "STUSB4500QTR_1")
 		(lib_id "EasyEda2Kicad:STUSB4500QTR")
-		(at 151.13 105.41 0)
+		(at 139.7 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5976,7 +6535,7 @@
 		(fields_autoplaced yes)
 		(uuid "f108a4f2-8b7b-434e-a039-5eee51687387")
 		(property "Reference" "U4"
-			(at 151.13 124.46 0)
+			(at 139.7 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +6543,7 @@
 			)
 		)
 		(property "Value" "STUSB4500QTR"
-			(at 151.13 127 0)
+			(at 139.7 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +6551,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:QFN-24_L4.0-W4.0-P0.50-BL-EP2.8"
-			(at 151.13 127 0)
+			(at 139.7 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6560,7 @@
 			)
 		)
 		(property "Datasheet" "https://github.com/usb-c/STUSB4500/"
-			(at 151.13 105.41 0)
+			(at 139.7 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6569,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 105.41 0)
+			(at 139.7 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,7 +6578,7 @@
 			)
 		)
 		(property "LCSC Part" "C2678061"
-			(at 151.13 129.54 0)
+			(at 139.7 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

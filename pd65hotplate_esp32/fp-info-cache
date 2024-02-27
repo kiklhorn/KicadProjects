@@ -1,4 +1,4 @@
-23090708998242667
+23092417998047506
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94464,6 +94464,13 @@ DFN1006-2L-RD
 0
 2
 2
+easyeda2kicad
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1
+
+
+0
+9
+9
 easyeda2kicad
 ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP
 
