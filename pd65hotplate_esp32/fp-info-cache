@@ -1,4 +1,4 @@
-23092417998047506
+23109517585203686
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -87128,6 +87128,20 @@ rotary encoder
 0
 7
 6
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOIC127P600X170-9N
+hsoic8
+Integrated Circuit
+0
+9
+9
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -94451,6 +94465,27 @@ Varistor VF
 2
 2
 easyeda2kicad
+C0402
+
+
+0
+2
+2
+easyeda2kicad
+C0603
+
+
+0
+2
+2
+easyeda2kicad
+C1210
+
+
+0
+2
+2
+easyeda2kicad
 DFN-10_L3.0-W3.0-P0.50-BL-EP2.5
 
 
@@ -94472,12 +94507,33 @@ ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP-1
 9
 9
 easyeda2kicad
+ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP2.3
+
+
+0
+9
+9
+easyeda2kicad
 ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP
 
 
 0
 11
 11
+easyeda2kicad
+IND-SMD_L11.0-W10.0-2
+
+
+0
+2
+2
+easyeda2kicad
+MSOP-8_L3.0-W3.0-P0.65-LS4.9-BL-EP
+
+
+0
+13
+9
 easyeda2kicad
 MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL-EP
 
@@ -94506,6 +94562,20 @@ QFN-38_L6.0-W4.0-P0.40-TL-EP_RJK
 0
 44
 40
+easyeda2kicad
+R0402
+
+
+0
+2
+2
+easyeda2kicad
+SOP-16_L9.9-W3.9-P1.27-LS6.1-BL
+
+
+0
+16
+16
 easyeda2kicad
 SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR
 
